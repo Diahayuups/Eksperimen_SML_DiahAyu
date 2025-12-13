@@ -31,6 +31,6 @@ def preprocessing_pipeline(input_path, output_path):
 
 if __name__ == "__main__":
     preprocessing_pipeline(
-        input_path="../namadataset_raw/breast_cancer_raw.csv",
+        input_path="namadataset_raw/breast_cancer_raw.csv",
         output_path="namadataset_preprocessing/breast_cancer_clean.csv"
     )
